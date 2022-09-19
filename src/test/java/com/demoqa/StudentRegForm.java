@@ -5,6 +5,8 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
@@ -35,6 +37,7 @@ public class StudentRegForm {
         $(".react-datepicker__day--015").click();
         $("#subjectsInput").setValue("English").pressTab();
         $("#hobbiesWrapper").$(byText("Sports")).click();
+        $("#uploadPicture").uploadFile(new File("src/test/resources/3.png"));
         $("#currentAddress").setValue("Address123");
         $(byText("Select State")).click();
         $(byText("NCR")).click();
