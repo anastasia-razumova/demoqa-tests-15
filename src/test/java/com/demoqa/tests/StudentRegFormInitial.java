@@ -1,4 +1,4 @@
-package com.demoqa;
+package com.demoqa.tests;
 
 
 import com.codeborne.selenide.Configuration;
@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class StudentRegForm {
+public class StudentRegFormInitial {
 
     @BeforeAll
     static void setUp() {
