@@ -17,7 +17,6 @@ public class StudentRegFormFaker {
     String email = faker.internet().emailAddress();
     String number = String.valueOf(faker.phoneNumber().subscriberNumber(10));
     String gender = faker.demographic().sex();
-    String pic = "3.png";
     String hobby = "Sports";
     String subject = "English";
     String address = String.valueOf(faker.address().fullAddress());
