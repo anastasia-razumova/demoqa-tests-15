@@ -54,7 +54,7 @@ public class StudentRegFormWithTestData {
         $("#lastName").setValue(lastName);
         $("#userEmail").setValue(email);
         $("#genterWrapper").$(byText("Male")).click();
-        $("#userNumber").setValue(phone);
+        $("#userNumber").setValue(number);
         $("#dateOfBirthInput").click();
         $(".react-datepicker__year-select").selectOption(year);
         $(".react-datepicker__month-select").selectOption(month);
@@ -75,7 +75,7 @@ public class StudentRegFormWithTestData {
         $(".table-responsive").shouldHave(text(lastName));
         $(".table-responsive").shouldHave(text(email));
         $(".table-responsive").shouldHave(text("Male"));
-        $(".table-responsive").shouldHave(text(phone));
+        $(".table-responsive").shouldHave(text(number));
         $(".table-responsive").shouldHave(text(day + " " + month + "," + year));
         $(".table-responsive").shouldHave(text("English"));
         $(".table-responsive").shouldHave(text("Sports"));
