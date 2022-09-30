@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class StudentRegForm {
+public class StudentRegFormPageObjects {
     StudentRegFormPage studentRegFormPage = new StudentRegFormPage();
 
     @BeforeAll

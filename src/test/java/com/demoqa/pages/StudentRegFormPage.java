@@ -1,10 +1,8 @@
 package com.demoqa.pages;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import com.demoqa.pages.components.CalendarComponent;
 import com.demoqa.pages.components.ResultsTableComponent;
-import com.demoqa.tests.StudentRegForm;
 
 import java.io.File;
 
