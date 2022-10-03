@@ -12,7 +12,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class SimpleButtonsTest {
+public class ParametrizedTests {
 
     @BeforeAll
     static void setUp() {
