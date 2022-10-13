@@ -8,7 +8,7 @@ import java.util.zip.ZipInputStream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class FileTest {
+public class FileTests {
 
     ClassLoader cl = FileTest.class.getClassLoader();
 
